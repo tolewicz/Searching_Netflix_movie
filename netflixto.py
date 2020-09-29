@@ -9,7 +9,7 @@ movie_title = input('what movie do you want to wtch ? \n')
 movie_status = False
 
 #provide path to file with movies
-csvpath = os.path.join('..','Resources','netflix_ratings.csv')
+csvpath = os.path.join('Resources','netflix_ratings.csv')
 print(csvpath)
 
 #open cv file, opening file only but not reading yet
